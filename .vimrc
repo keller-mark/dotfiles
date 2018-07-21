@@ -10,11 +10,16 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 
 Plugin 'tpope/vim-fugitive'
+Plugin 'tpope/vim-surround'
 Plugin 'itchyny/lightline.vim'
-Plugin 'morhetz/gruvbox'
+Plugin 'arcticicestudio/nord-vim'
 Plugin 'scrooloose/nerdtree'
-Plugin 'leafgarland/typescript-vim'
 Plugin 'Yggdroot/indentLine'
+Plugin 'airblade/vim-gitgutter'
+Plugin 'terryma/vim-multiple-cursors'
+Plugin 'junegunn/fzf.vim'
+Plugin 'w0rp/ale'
+Plugin 'mattn/emmet-vim', { 'for': ['*html', '*css', 'vue'] }
 
 call vundle#end()
 
@@ -34,7 +39,7 @@ set smarttab
 
 " General Config
 set number		                  "line numbers
-set autochdir		                "change working directory upon opening a file
+"set autochdir		                "change working directory upon opening a file
 set ruler		                    "show cursor position
 set clipboard=unnamed	          "use system clipboard
 set ignorecase
@@ -55,6 +60,7 @@ set nowb
 
 " Key Mappings
 inoremap jk <esc>
+inoremap JK <esc>
 inoremap <esc> <nop>
 
 inoremap <up> <nop>
@@ -73,12 +79,15 @@ nmap ; :
 " lightline:
 set laststatus=2
 
-" gruvbox:
-colorscheme gruvbox
-set background=dark " Setting dark mode for gruvbox plugin
+" colorscheme:
+colorscheme nord
+let g:nord_italic = 1
+let g:nord_italic_comments = 1
+let g:nord_uniform_status_lines = 1
+let g:lightline = {
+  \ 'colorscheme': 'nord'
+  \ }
 
 " nerdtree:
 map <C-n> :NERDTreeToggle<CR>
-
-let g:filetype_pl="prolog"
 
