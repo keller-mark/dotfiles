@@ -20,11 +20,13 @@ Plugin 'terryma/vim-multiple-cursors'
 Plugin 'junegunn/fzf.vim'
 Plugin 'w0rp/ale'
 Plugin 'mattn/emmet-vim', { 'for': ['*html', '*css', 'vue'] }
+Plugin 'scrooloose/nerdcommenter'
 
 call vundle#end()
 
 filetype plugin indent off
 set rtp+=$GOROOT/misc/vim
+set rtp+=/usr/local/opt/fzf
 
 filetype plugin indent on
 syntax on
