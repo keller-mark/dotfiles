@@ -1,0 +1,4 @@
+use_conda() {
+  . "~/anaconda3/etc/profile.d/conda.sh"
+  conda activate "$1"
+}
