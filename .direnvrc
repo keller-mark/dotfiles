@@ -1,4 +1,9 @@
 use_conda() {
-  . "~/anaconda3/etc/profile.d/conda.sh"
+  . "$HOME/anaconda3/etc/profile.d/conda.sh"
   conda activate "$1"
+}
+
+use_nvm() {
+  . "$HOME/.nvm/nvm.sh"
+  nvm use
 }
