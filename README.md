@@ -26,6 +26,7 @@ Install via command line:
 - rustup
 - miniconda
 - oh-my-zsh
+- nvm
 
 Install via brew:
 - direnv
