@@ -43,3 +43,8 @@ Install via brew cask:
 
 `xcode-select --install`
 
+Install via institution:
+- microsoft office
+- adobe creative cloud
+- antivirus
+
