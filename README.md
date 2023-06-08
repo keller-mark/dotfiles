@@ -27,6 +27,7 @@ Install via command line:
 - miniconda
 - oh-my-zsh
 - nvm
+- pnpm
 
 Install via brew:
 - direnv
