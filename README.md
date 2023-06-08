@@ -40,3 +40,5 @@ Install via brew cask:
 - xquartz
 - font-jetbrains-mono-nerd-font (brew tap homebrew/cask-fonts)
 
+`xcode-select --install`
+
