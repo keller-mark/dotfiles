@@ -9,6 +9,7 @@ Install via installer or zip from website/github:
 - zoom
 - filezilla
 - vscode
+  - extensions: copilot, eslint
 - R
 - RStudio
 - iterm2
