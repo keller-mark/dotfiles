@@ -37,6 +37,7 @@ Install via brew:
 - vim
 - wget
 - starship
+- http-server
 
 Install via brew cask:
 - xquartz
