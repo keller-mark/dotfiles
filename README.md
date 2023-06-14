@@ -38,6 +38,7 @@ Install via brew:
 - wget
 - starship
 - http-server
+- pkg-config
 
 Install via brew cask:
 - xquartz
