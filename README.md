@@ -21,6 +21,7 @@ Install via installer or zip from website/github:
 - aws cli
 - bftools
 - Rectangle
+- globus connect personal
 
 Install via command line:
 - homebrew
