@@ -40,6 +40,7 @@ Install via brew:
 - starship
 - http-server
 - pkg-config
+- pandoc
 
 Install via brew cask:
 - xquartz
