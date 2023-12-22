@@ -42,6 +42,15 @@ Install via brew:
 - pkg-config
 - pandoc
 
+Install via brew for the `canvas` package on NPM:
+- cairo
+- pango
+- libpng
+- jpeg
+- giflib
+- librsvg
+- pixman
+
 Install via brew cask:
 - xquartz
 - font-jetbrains-mono-nerd-font (brew tap homebrew/cask-fonts)
